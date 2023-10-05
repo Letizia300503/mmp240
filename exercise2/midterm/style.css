@@ -1,0 +1,36 @@
+#wrapper {
+    max-width: 1200px;
+    background-color: #ffb9f2;
+} 
+header {
+    background-image: url("images/madeasfamillyhomepicture.png");
+}
+header{
+    padding: 2em;
+   /* background-color: #ffb9f2;
+    background-image: "images/madeasfamillyhomepicture.png" ;
+    background-repeat: no-repeat;
+    background-position:top right ;*/
+    background:
+    linear-gradient(90deg, rgba(252,81,211,1) 0%, rgba(187,90,160,0.869222266881029) 27%, rgba(255,94,188,0.14896503215434087) 44%),
+     url("images/madeasfamillyhomepicture.png")no-repeat top right,
+      #e074acf1;
+    
+}     
+.lead{
+    width: 33%;
+    color: #fdbdea;
+}   
+h1 img{
+    width: 300px;
+}
+.button{ 
+    display:block;
+    width:3em;
+    text-align: center;
+    background-color: rgb(255, 0, 136);
+    padding: 6px;
+    border-radius: 10px;
+    color:#fff;
+    text-decoration:none;
+}
