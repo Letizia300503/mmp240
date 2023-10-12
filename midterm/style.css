@@ -34,3 +34,19 @@ h1 img{
     color:#fff;
     text-decoration:none;
 }
+/* Navigation Bar */
+nav li{
+    display: inline;
+    margin-right: 2em;
+    border-right: solid 1px #98086f;
+    padding-right: 2em;
+}
+
+nav a{
+    color: #e6078d;
+    text-decoration: none;
+}
+nav{
+    background-color: #fc75d3;
+    padding: 0.1em 0; /* first value for top & bottom, second value for left & right */
+}
