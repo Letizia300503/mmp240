@@ -67,10 +67,25 @@ nav{
 footer{ /* making sure  nothing floats next to footer*/
     clear:both;
 }
-.Moovies{
+
+
+/* ******* Episode style css* ******* */
+
+.Movies{
     display: flex;
+    flex-wrap: wrap;
 }
 .card img{
-    float: left;
     margin-right: 1em;
 }
+
+.card{
+    text-align: center;
+    width: 20%;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    border: solid 3px #98086f;
+    padding: 1em;
+}
+
+
