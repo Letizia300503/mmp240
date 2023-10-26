@@ -1,5 +1,5 @@
 #wrapper {
-    max-width: 1200px;
+
     background-color: #ffb9f2;
     overflow: auto;
 } 
@@ -14,7 +14,7 @@ header{
     background-position:top right ;*/
     background:
     linear-gradient(90deg, rgba(252,81,211,1) 0%, rgba(187,90,160,0.869222266881029) 27%, rgba(255,94,188,0.14896503215434087) 44%),
-     url("images/madeasfamillyhomepicture.png")no-repeat top right,
+     url("images/madeasfamillyhomepicture.png")no-repeat center right/75%,
       #e074acf1;
     
 }     
@@ -88,4 +88,11 @@ footer{ /* making sure  nothing floats next to footer*/
     padding: 1em;
 }
 
+main{
+    padding-left: 4em;
+    padding-right: 0em;
+}
 
+h2{
+    text-align: center;
+}
