@@ -12,14 +12,23 @@ h1{
     float: left;
 }
 
+p{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+
 .topNav nav{
    display: none;
    clear: right; /*clears right float*/
    border: solid 1px #ccc;
    padding: 0.5em;
+   text-align: center;
 }
 .topNav nav li{
     margin-bottom: 1em;
+    border-bottom: solid 1px #ccc;
+    padding: 0.5em;
 }
 
 #menu{
@@ -117,18 +126,71 @@ footer{
     font-size: smaller;
 }
 
-h1,h2,h3,h4{
+h1,h2,h3, strong{
     font-weight: bold;
+}
+
+h2{
+    text-transform: uppercase;
+    color: rgb(191, 57, 151);
+}
+
+h4{
+    color: rgb(213, 138, 205);
+    margin-bottom: 0.5em;
+}
+h3{
+    margin-bottom: 1em;
+}
+
+a{
+    color: rgb(172, 18, 157);
+
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
 }
 
 
 
-@media (min-width: 568px){
+@media (min-width: 768px){
+    
     main{
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-gap: 1em;
     }
-}
+    .Flex-container{
+        display: flex;
+    }
+    .program-select{
+       width: 33%;
+       position: relative;
+    }
 
+    .dropdown{
+        position: absolute;
+        width: 100%;
+    }
+    .topNav nav{
+        display: block;
+    }
+    #menu{
+        display: none;
+    }
+
+    .topNav ul, .topNav li, .topNav form{
+        display: inline;
+        margin-left: 1em;
+    }
+    .topNav nav{
+        border: none;
+        float: right;
+        margin-right: 0;
+    }
+     
+}
 
