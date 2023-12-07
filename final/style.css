@@ -12,6 +12,13 @@ h1{
     float: left;
 }
 
+body{
+    margin: 0.5em;
+    margin-top: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.4em;
+}
+
 p{
     margin-bottom: 1em;
     margin-top: 1em;
@@ -126,6 +133,24 @@ footer{
     font-size: smaller;
 }
 
+.programs a{
+    text-decoration: none;
+    color: #000;
+}
+
+.program-card img{
+    width: 100%;
+}
+
+.program-card{
+    box-shadow: 3px 3px 10px #ccc;
+    padding-bottom: 1em;
+}
+
+.program-card p, .program-card h3, .program-card h4{
+    margin: 1em;
+}
+
 h1,h2,h3, strong{
     font-weight: bold;
 }
@@ -163,6 +188,9 @@ nav a:hover{
         grid-template-columns: 2fr 1fr;
         grid-gap: 1em;
     }
+    main.program-page{
+        display: block;
+    }
     .Flex-container{
         display: flex;
     }
@@ -170,7 +198,14 @@ nav a:hover{
        width: 33%;
        position: relative;
     }
-
+    .programs{ 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    main.program-page{
+        display: block;
+    }
     .dropdown{
         position: absolute;
         width: 100%;
@@ -190,6 +225,24 @@ nav a:hover{
         border: none;
         float: right;
         margin-right: 0;
+    }
+    .programs{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+    }
+    .program a{
+        text-decoration: none;
+        color: #333;
+    }
+    .program-card img{
+        width: 100%;
+    }
+    .program-card{
+        box-shadow: 3px 3px 10px;
+    }
+    .program-card p, .program-card h3, .program-card h4{
+        margin: 1em;
     }
      
 }
