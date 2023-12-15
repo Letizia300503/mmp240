@@ -192,6 +192,9 @@ nav a:hover{
 footer{
     margin-top: 1em;
 }
+.program-card{
+    box-shadow: 3px 3px 10px;
+}
 
 
 
@@ -252,9 +255,7 @@ footer{
     .program-card img{
         width: 100%;
     }
-    .program-card{
-        box-shadow: 3px 3px 10px;
-    }
+   
     .program-card p, .program-card h3, .program-card h4{
         margin: 1em;
     }
