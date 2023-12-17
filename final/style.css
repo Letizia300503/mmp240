@@ -89,7 +89,6 @@ p{
 .banner{
     padding: 2em;
     padding-top: 3em;
-    height: 200px;
     background: url("images/Banner.jpg") no-repeat center;
     background-size: cover;
 }
